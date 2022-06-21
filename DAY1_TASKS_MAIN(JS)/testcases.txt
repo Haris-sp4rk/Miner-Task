@@ -10,14 +10,42 @@ Expected OUTPUT:Z
 
 
 ##BINOMIAL COEFFICIENT
+Input:8,3
+Expected OUTPUT:56
 
+Input:-9,9
+Expected OUTPUT:0
+
+Input:999,999
+Expected OUTPUT:1
+
+Input:10,100
+Expected OUTPUT:0
 
 ##TRIGNOMETRIC IDENTITIES
 
 
 ##LOAN_PAYMENT
+Input:100000, 2, 12
+Expected OUTPUT: 66666.67
 
+Input:10000,0,0
+Expected OUTPUT: 0.00
+
+Input:1234,3,0
+Expected OUTPUT:925
+
+Input:13456,0,4
+Expected OUTPUT:0.00
 ##TAYLOR
 
 
 ##GAUSSIAN
+Input: 2
+Expected OUTPUT: 1.7724538509055159
+
+Input: ss
+Expected OUTPUT: DO NOT GIVE NEGATIVE VALUES OR INVALID VALUES
+
+Input: -1
+Expected OUTPUT: inf
