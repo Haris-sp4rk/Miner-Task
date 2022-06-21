@@ -1,0 +1,23 @@
+##Write test cases according to your assigned tasks
+
+Format should be
+Input:XYZ
+
+Expected OUTPUT:Z
+
+(DO Exception handling in your code)
+
+
+
+##BINOMIAL COEFFICIENT
+
+
+##TRIGNOMETRIC IDENTITIES
+
+
+##LOAN_PAYMENT
+
+##TAYLOR
+
+
+##GAUSSIAN
