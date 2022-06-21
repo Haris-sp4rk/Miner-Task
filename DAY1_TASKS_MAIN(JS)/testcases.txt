@@ -10,7 +10,17 @@ Expected OUTPUT:Z
 
 
 ##BINOMIAL COEFFICIENT
+Input:8,3
+Expected OUTPUT:56
 
+Input:-9,9
+Expected OUTPUT:0
+
+Input:999,999
+Expected OUTPUT:1
+
+Input:10,100
+Expected OUTPUT:0
 
 ##TRIGNOMETRIC IDENTITIES
 
