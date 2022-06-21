@@ -39,7 +39,17 @@ Input:13456,0,4
 Expected OUTPUT:0.00
 ##TAYLOR
 
+Input(x, numOfTerms): 2,10
+Expected Output: 7.3887125220458545
 
+Input(x, numOfTerms): -10, 10
+Expected Output: -27.70631023742594
+
+Input(x, numOfTerms): 0,10
+Expected Output: 1
+
+Input(x, numOfTerms): 2, -2
+Expected Output: Invalid input for number of terms
 ##GAUSSIAN
 Input: 2
 Expected OUTPUT: 1.7724538509055159

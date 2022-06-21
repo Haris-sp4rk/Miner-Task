@@ -16,6 +16,7 @@ function taylorExpansion(x,numOfTerms){
         document.querySelector(".error-message").textContent=""
     }
     else{
+        document.querySelector(".output-div").textContent = "";
         document.querySelector(".error-message").textContent = "Enter the values of x and num to compute taylor series"
     }
     
