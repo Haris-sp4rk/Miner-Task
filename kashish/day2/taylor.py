@@ -1,5 +1,6 @@
-def taylorExpansion(x, numOfTerms):
-
+def taylorExpansion():
+    x=int(input("Input Value of x:"))
+    numOfTerms=int(input("Input number of terms:"))
     fact = 1
     sum = 0.0
 
@@ -8,7 +9,7 @@ def taylorExpansion(x, numOfTerms):
         sum = sum+(pow(x, i)/fact)
 
     sum = sum + 1
-    return sum
+    print("The answer is ",sum)
 
 
 # print(taylorExpansion(2, 10))

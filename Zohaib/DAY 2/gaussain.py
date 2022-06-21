@@ -11,4 +11,4 @@ def gaussain():
     gfg = lambda x: np.exp(-x**xsquare)
     geek = integrate.quad(gfg, np.NINF, np.inf)
     print(geek[0])
-gaussain()
+

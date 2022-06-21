@@ -7,4 +7,3 @@ def loanPayment():
     Y=(1+r)**n
     a=p*(r*(Y))/X
     print("Payment amount per period : " ,a)
-loanPayment()
