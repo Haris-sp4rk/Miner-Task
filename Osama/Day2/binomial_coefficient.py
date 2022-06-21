@@ -3,9 +3,12 @@ def binomial():
 
     print("\nBinomial Coefficient Calculator. \n\nSample Values: 8,3 = 56\n")
     
-    x = int(input("Enter First Integer: "))
-    y = int(input("Enter Second Integer: "))
-
+    try:
+        x = int(input("Enter First Integer: "))
+        y = int(input("Enter Second Integer: "))
+    except:
+        print("Input type is not an integer")
+        
     print('\nBinomial Coefficient:', fac(x) // fac(y) // fac(x - y))
 
 
