@@ -7,7 +7,7 @@ def binomial():
         x = int(input("Enter First Integer: "))
         y = int(input("Enter Second Integer: "))
     except:
-        print("Input type is not an integer")
+        print("Input type is not an integer or a -ve value")
         
     print('\nBinomial Coefficient:', fac(x) // fac(y) // fac(x - y))
 
