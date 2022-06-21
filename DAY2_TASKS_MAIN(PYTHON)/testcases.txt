@@ -26,7 +26,17 @@ Expected OUTPUT:Input type is not an integer or a -ve value
 
 
 ##LOAN_PAYMENT
+Input:100000, 2, 12
+Expected OUTPUT: 66666.67
 
+Input:10000,0,0
+Expected OUTPUT: 0.00
+
+Input:1234,3,0
+Expected OUTPUT:925
+
+Input:13456,0,4
+Expected OUTPUT:0.00
 ##TAYLOR
 
 
