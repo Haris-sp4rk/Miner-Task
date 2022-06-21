@@ -21,3 +21,11 @@ Expected OUTPUT:Z
 
 
 ##GAUSSIAN
+Input: 2
+Expected OUTPUT: 1.7724538509055159
+
+Input: ss
+Expected OUTPUT: DO NOT GIVE NEGATIVE VALUES OR INVALID VALUES
+
+Input: -1
+Expected OUTPUT: inf
