@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h2>GAUSSIAN INTEGRAL DERIVATION</h2>
+</head>
+<body>
+
+<p>
+        <a id="showImage">First we give a name to our integral. We call it I. </a>
+        <img id="theImage" src="1.png">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+<p>
+    <a id="showImage">Note that x is just a ‘dummy variable’. The area exists regardless of what variable name we use. So, we can also write the following two equations: </a>
+    <img id="theImage" src="2.png" class="center">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+<p>
+    <a id="showImage">Now, as I is just a constant, albeit one we don’t know the value of yet, we can use our normal rules for bringing a constant inside an integral</a>
+    <img id="theImage" src="3.png" class="center">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+<p>
+    <a id="showImage">So far we haven’t done much substantive. Now we think hard about what the integral means. We take integrals of functions. If two functions take the same value everywhere, they are the same, and have the same area. With that in mind, we can make the following manipulations, if we view I*exp(-x²) as a function of x, i.e. something which takes in values of x as an input, and gives a number as an output.</a>
+    <img id="theImage" src="4.png" class="center">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+<p>
+    <a id="showImage">Ok, that was a lot to take in. In the first line, we just rewrote I in its integral form with a different variable name. In the second line, treating I*exp(-x²) as a function, we realised that we can bring the exp(-x²) inside the dy integral, and this would still give the same output value for any input value of x. Finally, we used the rules of exponentiation.
+        Writing this out in full, we now have</a>
+    <img id="theImage" src="5.png" class="center">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+<p>
+    <a id="showImage">Next comes the killer insight. Above we messed around with variable names and how to represent a function. Now we shift our perspective: this expression also represents the integral of exp(-(y²+x²)) over the whole 2D plane, with area element dA = dx dy. I.e. dx dy is a small rectangle on a plane, and exp(-(y²+x²)) is the height above that rectangle.
+
+        Next, we use the polar coordinate insights from earlier</a>
+    <img id="theImage" src="6.png" class="center">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+<p>
+    <a id="showImage">We can evaluate the inner integral using the chain rule</a>
+    <img id="theImage" src="7.png" class="center">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+<p>
+    <a id="showImage">And, into the promised land we now find ourselves:</a>
+    <img id="theImage" src="8.png" class="center">
+
+    <script>
+        document.getElementById("theImage").style.visibility = "visible";
+    </script>
+</p>
+
+</body>
+</html>
