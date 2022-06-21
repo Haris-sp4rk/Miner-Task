@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        align-items: center;
+        border: 1px solid #222222;
+        padding-bottom: 20px;
+
+    }
+
+    main input{
+        width: 100px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    main input:focus{
+        outline: transparent;
+    }
+
+    main label{
+        margin-bottom: 10px;
+    }
+
+    main button{
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid transparent;
+    }
+
+    main button:hover{
+        background-color:#2222;
+        font-weight: bold;
+    }
+
+    .output{
+        display: flex;
+        padding-top: 10px;
+    }
+
+    .output-div{
+        width: 200px;
+        border: 1px solid grey;
+        margin-left: 10px;
+    }
+
+    .error-message{
+        color: red;
+    }
+
+    
+</style>
+<body>
+    <main>
+    <h1>Taylor Expansion</h1>
+    <p>
+      <strong><em>Formula: e^x=1+x/1!+x^2/2!+x^3/3!+…, </em></strong>  
+    </p>
+    
+    <div class="x-value">
+        <label for="x">Enter value of x: </label>
+        <input type="number" name="x" id="x" required/>
+    </div>
+        
+    <div class="num-value">
+        <label for="num">Enter number of terms: </label>
+        <input type="number" name="num" id="num" required>
+    </div>
+       
+
+        <button onclick="taylorExpansion(document.getElementById('x').value, document.getElementById('num').value)">Compute Taylor Series Sum</button>
+
+        <div class="output">
+            <label>Output:</label>
+            <div class="output-div">
+
+            </div>
+            
+        </div>
+        <p class="error-message"></p>
+    </main>
+
+    <script src="taylorExpansion.js"></script>
+</body>
+</html>
