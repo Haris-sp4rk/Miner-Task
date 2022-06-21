@@ -9,6 +9,15 @@ function taylorExpansion(x,numOfTerms){
 
     sum = sum+1;
     console.log(sum)
-    document.querySelector(".output-div").textContent = sum;
+    ex = document.getElementById('x')
+    num = document.getElementById('num')
+    if(ex.value != '' && num.value !=''){
+        document.querySelector(".output-div").textContent = sum;
+        document.querySelector(".error-message").textContent=""
+    }
+    else{
+        document.querySelector(".error-message").textContent = "Enter the values of x and num to compute taylor series"
+    }
+    
 
 }
