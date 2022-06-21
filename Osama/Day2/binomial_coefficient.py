@@ -9,4 +9,4 @@ def binomial():
     print('\nBinomial Coefficient:', fac(x) // fac(y) // fac(x - y))
 
 
-print(binomial())
+
