@@ -18,18 +18,18 @@ func main() {
 	var x int
 	fmt.Scanln(&x)
     
-	if(x==1):
+	if x==1{
 		Trignometricidentity()
-	elif(x==2):
+	}else if x==2{
 		TaylorExpansion()
-	elif(x==3):
+	}else if x==3{
 		Binomial()
-	elif(x==4):
+	}else if x==4{
 		LoanPayment()
-	elif(x==5):
+	}else if x==5{
 		Gaussain()
-	else:
-		fmt.Println("Wrong Input")
+	}else{ 
+		fmt.Println("Wrong Input")}
 
 }
       
