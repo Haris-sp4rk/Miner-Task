@@ -5,9 +5,9 @@ import (
 	"math"
 )
 
-func main() {
-	Binomial()
-}
+// func main() {
+// 	Binomial()
+// }
 
 func factorial(n int) float64 {
 	var factVal float64 = 1 // float64 is the set of all unsigned 64-bit integers.
@@ -30,7 +30,6 @@ func Binomial() {
 	fmt.Println()
 
 	var x, y int
-	// var y int
 	fmt.Println("Enter First Integer: ")
 	fmt.Scanln(&x)
 
