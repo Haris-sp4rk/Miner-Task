@@ -31,7 +31,5 @@ func main() {
 	else:
 		fmt.Println("Wrong Input")
 
-	fmt.Println("Hello, 世界")
-	Haris()
 }
       
